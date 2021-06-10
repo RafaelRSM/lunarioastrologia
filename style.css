@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    font-size: 20px;
+    line-height: 1.5;
 }
 
 header {
@@ -12,6 +14,7 @@ header {
     display: inline-block;
     width: 100vw;
     min-height: 200px;
+    margin-bottom: 2rem;
 }
 
 h1 {
@@ -56,9 +59,6 @@ header > div > a {
     width: 2.5%;
 }
 
-header > div > nav {
-         
-}
 .nav {
     position: absolute;
     top: 153px;
@@ -116,100 +116,20 @@ header > div > nav > ul > li > a {
     vertical-align: middle;
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-        margin: 0;
-    }
-    
-    header {
-        background-color: blueviolet;
-        background-image: url('bg-topo.jpg');
-        background-size: 100% 100%;
-        text-decoration: none;
-        padding: 7%;
-        border-radius: 0 0 0 0;
-    }
-    
-    header > img {
-        width: 120px;
-        border-radius: 50%;
-        border-style: inset;
-        border-color: rgb(253, 253, 133);
-        position: absolute;
-        margin-top: 0%;
-        margin-left: 5%;
-    }
-    
-    header > div > a {
-        right: 0;
-        text-align:right;
-    }
-    
-    header > div > a > img {
-        text-decoration: none;
-        margin: 3%;
-        right: 0;
-        margin-top: 4%;
-    }
-    
-    .insta {
-        width: 8%;
-    }
-    
-    .whats{
-        width: 8%;
-    }
-    
-    .youtube{
-        width: 10%;
-    }
-    
-    .face{
-        width: 8%;
-    }
-    
-    .telegram {
-        width: 8%;
-    }
-    
-    header > div > nav {
-        margin-top: -40px;  
-        text-align: right;      
-        margin-top: 7%;
-    }
-    
-    header > div > nav > ul {
-        margin-right: 30%;
-    }
-    
-    header > div > nav > ul > li {
-        display: inline;
-        
-    }
-    
-    header > div > nav > ul > li > a {
-        color: #ffffff;
-        text-decoration: none;
-        margin: 2%;
-        text-transform: uppercase;
-        
-    }
-    
-    .header-strip {
-        background-color: darkslategrey;
-        position: absolute;
-        right: 0;
-        border-radius: 0 0 0 0;
-        width: 100%;
-        height: 9%;
-        display: inline-block;
-        background-color: #414141;
-        color: #ffffff;
-        text-decoration: none;
-        top: 0%;
-        text-align: center;
-        justify-content: center;
-        display: inline-table;
-    }
+main {
+    color: #636363
+}
 
-}    
+p {
+    margin-bottom: 1rem;
+    margin-top: 0;
+    text-align: justify;
+}
+
+footer {
+    background-color: #3a1a71;
+    color: #fff;
+    text-align: center;
+    padding: 1px 0px;
+    border-radius: 25px 0 0 0;
+}
