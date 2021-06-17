@@ -1,0 +1,49 @@
+main > h2{
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+.mapas-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 80%;
+    flex-wrap: wrap;
+}
+
+.mapas-flex > a {
+    text-decoration: none;
+    margin: 17px;
+}
+
+.servicos {
+    height: 240px;
+    width: 180px;
+    background-color: #3a1a71;
+    color: #fff;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;    
+}
+
+.servicos:hover {
+    height: 240px;
+    width: 180px;
+    background-color: #3a1a71;
+    color: #fff;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    opacity: 80%;    
+}
+
+.servicos > h3 {
+    text-align: center;
+}
+
+.servicos > p {
+    text-align: center;
+    margin-left: 3px;
+    margin-right: 3px;
+}

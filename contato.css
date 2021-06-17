@@ -1,0 +1,59 @@
+main {
+    background-color: #fbfd6b;
+    width: 60vw;
+    margin: auto;
+    padding: 30px 0;
+    border-radius: 100px 0 100px 0;
+}    
+
+form {
+    background-color: #414141;
+    width: 310px;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 0 auto;
+    border-style: groove;
+    box-shadow: 6px 6px 4px black, inset 5px 5px 5px black;
+    line-height: 0.75rem;
+}
+
+main > form > fieldset {
+    border: 0;
+}
+
+main > form > fieldset > label {
+    display: block;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+main > form > fieldset > input {
+    height: 25px;
+}
+
+.input-forms {
+    width: 100%;
+    border: 0;
+    padding: 0;
+}
+
+.button:hover {
+    opacity: 70%;
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        background-color: #fbfd6b;
+        margin: 0;
+        width: 100vw;
+    }
+   
+    main > form {
+        background-color: #414141;
+        width: 70%;
+        padding: 20px;
+        border-radius: 15px;
+        border-style: groove;
+        border-color: #414141;
+    }
+}
