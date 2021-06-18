@@ -7,7 +7,7 @@ body {
 
 header {
     background-color: blueviolet;
-    background-image: url('bg-topo.jpg');
+    background-image: url('../images/bg-topo.jpg');
     background-size: 100% 100%;
     text-decoration: none;
     border-radius: 0 0 70px 0;
