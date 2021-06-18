@@ -81,4 +81,13 @@ main {
         align-content: flex-start;
         margin: 2rem auto;
     }
+
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        max-width: 100vw;
+        margin: auto;
+    }
 }
